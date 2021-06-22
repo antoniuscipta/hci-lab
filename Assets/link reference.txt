@@ -8,3 +8,5 @@ dispenser: https://www.pricebook.co.id/Miyako-WD-189-H/139/PD_00049708
 
 
 motivation: https://thenounproject.com/term/motivation/2613640/
+
+discount: https://pixabay.com/vectors/discount-50-off-off-sale-offer-50-2345221/
