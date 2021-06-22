@@ -24,8 +24,12 @@
     padding: 20px;
     width: 50%;
     align-self: center;
+    text-align: center;
+    font-size: 20px;
 }
-
+.zz{
+    
+}
 .container .content .description .header{
     display: flex;
     align-items: center;
@@ -39,7 +43,10 @@
 
 .container .content .logo{
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 .container .content .logo img{
     width: 70%;
+    height: auto;
 }

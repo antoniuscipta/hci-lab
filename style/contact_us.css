@@ -1,0 +1,54 @@
+.container .header hr{
+    border-top: 1px solid #3A6351;
+}
+
+.container .header{
+    margin-bottom: 20px;
+}
+
+.container .headquarter{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.container .headquarter .detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+}
+
+.container .headquarter .detail .component{
+    align-self: center;
+    text-align: center;
+}
+
+.container form{
+    font-size: 30px;
+}
+
+.container form .component{
+    margin: 20px 0 20px 0;
+}
+
+.container form .component input{
+    font-size: 20px;
+}
+
+.container form .component textarea{
+    resize: none;
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+}
+
+#submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}

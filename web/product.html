@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/product.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../js/header.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,9 +25,19 @@
             <a class="component" href="home.html">Home</a>
             <a class="component" href="about_us.html">About Us</a>
             <a class="component" href="product.html">Products</a>
-            <a class="component" href="">Register</a>
+            <a class="component" href="contact_us.html">Contact Us</a>
+            <a class="component" href="register.html">Register</a>
+            <span><img id="humberger" class="humberger" src="../Assets/humberger.png" alt=""></span>
         </div>
     
+    </div>
+
+    <div class="dd-menu" id="dd-menu" style="display: none;">
+        <a class="component" href="home.html">Home</a>
+        <a class="component" href="about_us.html">About Us</a>
+        <a class="component" href="product.html">Products</a>
+        <a class="component" href="contact_us.html">Contact Us</a>
+        <a class="component" href="register.html">Register</a>
     </div>
 
     <div class="jumbotron">
@@ -36,45 +48,87 @@
 
         <div class="product">
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/kertas.jpg" alt="">
+                <div class="detail"><h2>Ligthen World Paper</h2></div>
+                <div class="detail"><h4>IDR 200.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">1 rim of paper that contain 500 paper inside</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/pulpen.jpg" alt="">
+                <div class="detail"><h2>Slower Pen</h2></div>
+                <div class="detail"><h4>IDR 20.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">Shielded with aluminium, not easily break</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/cartridge.JPG" alt="">
+                <div class="detail"><h2>Cartridge Printer</h2></div>
+                <div class="detail"><h4>IDR 100.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">Refill your printer with this product</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/printer.webp" alt="">
+                <div class="detail"><h2>Canon Launcher Printer</h2></div>
+                <div class="detail"><h4>IDR 1.000.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">Printer with bluetooth fiture inside</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/fax.jpg" alt="">
+                <div class="detail"><h2>Fax Machine</h2></div>
+                <div class="detail"><h4>IDR 500.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">Send File from far distance</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             <div class="product-list">
-                <img src="../Assets/kertas.jpg" alt="">
-                <div class="detail"><h2>Product Name</h2></div>
-                <div class="detail"><h4>Product Price</h4></div>
-                <div class="detail">Description dikit soal barangnya</div>
+                <img class="image" src="../Assets/dispenser.jpg" alt="">
+                <div class="detail"><h2>Water Dispenser</h2></div>
+                <div class="detail"><h4>IDR 300.000,00</h4></div>
+                <div class="detail">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <img class="star" src="../Assets/star.png" alt="">
+                    <span class="text">&nbsp;4.0/5.0 rating</span>
+                </div>
+                <div class="detail">Water Dispenser With Hot and Cold Water</div>
                 <div class="detail"><button>Buy</button></div>
             </div>
             

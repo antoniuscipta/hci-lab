@@ -1,0 +1,41 @@
+.error{
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .content{
+    border: 2px solid rgb(1, 136, 80);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .content label{
+    color: green;
+    font-size: 21px;
+}
+
+.container .content form .component{
+    margin: 5px 0 5px 0;
+}
+
+#submitBtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.container .content .option{
+    color: blue;
+}
+
+.formEmail .formGender .formAddress .formCity .formCheck
+
+.formName .formEmail{
+    margin-bottom: 15px;
+}
